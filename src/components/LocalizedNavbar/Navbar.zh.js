@@ -1,59 +1,47 @@
 const zhNavbar = {
   hideOnScroll: true,
-  title: "ChatGPT SC",
+  title: "ChatGPT 指令大全",
   logo: {
     alt: "ChatGPT Shortcuts",
     src: "img/logo.svg",
   },
   items: [
     {
-      to: "https://newzone.top/posts/2023-02-27-chatgpt_shortcuts.html",
-      label: "ChatGPT Shortcut 原理说明",
+      to: "https://chat.myxinwen.top/",
+      label: "ChatGPT 国人极速版",
+      position: "left",
+    },
+    {
+      to: "https://chat1.myxinwen.top/",
+      label: "ChatGPT 国人语音版",
+      position: "left",
+    },
+    {
+      to: "https://ai.myxinwen.top/",
+      label: "ChatGPT 学生辅导版",
       position: "left",
     },
     {
       type: 'dropdown',
-      label: '其他工具',
+      label: 'ChatGPT工具',
       position: 'left',
       items: [
         {
-          label: "Chrome 扩展版",
-          href: "https://chrome.google.com/webstore/detail/chatgpt-shortcut/blcgeoojgdpodnmnhfpohphdhfncblnj",
+          label: "ChatGPT独享账号",
+          href: "https://fk.myxinwen.top/",
         },
         {
-          label: 'IMGPrompt',
-          href: 'https://prompt.newzone.top/',
-        },
-        {
-          label: '文字处理',
-          href: 'https://tools.newzone.top/',
-        },
-        {
-          label: '工具收藏',
-          href: 'https://nav.newzone.top',
-        },
-        {
-          label: 'Find on Product Hunt',
-          href: 'https://www.producthunt.com/posts/chatgpt-shortcut?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-chatgpt&#0045;shortcut',
-        },
+          label: 'OpenAI Key 余额查询',
+          href: 'https://www.myxinwen.top/openai/',
+        }
       ],
     },
     {
-      to: "https://xq7pd3qu17.feishu.cn/share/base/form/shrcnK7oaSPaAcj1YAHfy4jo0Jh",
-      label: "反馈/添加提示词",
+      to: "https://fk.myxinwen.top/",
+      label: "ChatGPT独享账号",
       position: "left",
     },
     { type: "localeDropdown", position: "right" },
-    {
-      href: "https://github.com/rockbenben/ChatGPT-Shortcut",
-      position: "right",
-      className: "header-github-link",
-    },
-    {
-      href: "https://discord.gg/PZTQfJ4GjX",
-      position: "right",
-      className: "header-discord-link",
-    },
   ],
 };
 
