@@ -7,21 +7,21 @@ const enNavbar = {
   },
   items: [
     {
-      href: 'https://www.producthunt.com/posts/chatgpt-shortcut?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-chatgpt&#0045;shortcut',
-      label: 'Find on Product Hunt',
+      href: 'hhttps://chat.myxinwen.top/',
+      label: 'ChatGPT Extreme version',
       target: '_blank',
       position: 'left',
     },
     { type: "localeDropdown", position: "right" },
     {
-      href: "https://github.com/rockbenben/ChatGPT-Shortcut",
+      href: "https://chat1.myxinwen.top",
       position: "right",
-      className: "header-github-link",
+      className: "ChatGPT Audio version",
     },
     {
-      href: "https://discord.gg/PZTQfJ4GjX",
+      href: "https://ai.myxinwen.top",
       position: "right",
-      className: "header-discord-link",
+      className: "ChatGPT Student version",
     },
   ],
 };
