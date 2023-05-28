@@ -13,7 +13,7 @@ const config = {
   favicon: "img/favicon.ico",
 
   // Set the production url of your site here
-  url: "https://www.aishort.top",
+  url: "https://zl.myxinwen.top",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: "/",
@@ -21,7 +21,7 @@ const config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: "rockbenben", // Usually your GitHub org/user name.
-  projectName: "ChatGPT-Shortcut", // Usually your repo name.
+  projectName: "ChatGPT-指令大全", // Usually your repo name.
 
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
@@ -82,7 +82,7 @@ const config = {
       navbar: getNavbar(),
       footer: {
         style: "dark",
-        copyright: `Copyright © ${new Date().getFullYear()} ChatGPT Shortcut`,
+        copyright: `Copyright © ${new Date().getFullYear()} ChatGPT 指令大全`,
       },
       prism: {
         theme: lightCodeTheme,
