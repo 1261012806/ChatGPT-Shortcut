@@ -2,7 +2,7 @@ const zhNavbar = {
   hideOnScroll: true,
   title: "ChatGPT 指令大全",
   logo: {
-    alt: "ChatGPT Shortcuts",
+    alt: "ChatGPT 指令大全",
     src: "img/logo.svg",
   },
   items: [
