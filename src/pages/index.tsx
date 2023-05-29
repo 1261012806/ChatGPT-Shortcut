@@ -139,10 +139,10 @@ function useFilteredUsers() {
 function ShowcaseHeader() {
   return (
     <section className="margin-top--lg margin-bottom--lg text--center">
-      <Heading as="h1">ChatGPT Shortcut</Heading>
+      <Heading as="h1">ChatGPT 指令大全</Heading>
       <p>{DESCRIPTION}</p>
       <Link className="button button--primary" to={SUBMIT_URL}>
-        <Translate id="showcase.header.button">🙏 ChatGPT国人极速版</Translate>
+        <Translate id="showcase.header.button">☞ ChatGPT国人极速版 ☜</Translate>
       </Link>
     </section>
   );
