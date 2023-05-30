@@ -41,6 +41,11 @@ const zhNavbar = {
       label: "ChatGPT独享账号",
       position: "left",
     },
+    {
+      to: "https://www.myxinwen.top/2023/05/30/chatgpt-%e6%8c%87%e4%bb%a4%e5%a4%a7%e5%85%a8%e4%bd%bf%e7%94%a8%e8%af%b4%e6%98%8e/",
+      label: "ChatGPT指令大全使用教程",
+      position: "left",
+    },
     { type: "localeDropdown", position: "right" },
   ],
 };
